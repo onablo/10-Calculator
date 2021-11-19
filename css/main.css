@@ -1,0 +1,104 @@
+.body {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;    
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/green.jpg);
+    background-repeat: no-repeat;          
+    background-size: cover;
+    position: absolute;
+}
+
+.maincontent {
+    width: 100%;
+    height: 100%;
+}
+
+.header {    
+    display: inline-block;
+    margin-top: 30px;
+    width: 100%;        
+}
+
+.logo {    
+    height: 50px;
+    margin-left: 30px;    
+}
+
+.page > .container {
+    width: 100%;    
+    
+}
+
+.left-column {    
+    width: 55%;    
+    position: absolute;
+}
+
+.calc {  
+    box-sizing: content-box;
+    display: grid; 
+    grid-template-rows: 140px 72px 72px 72px 72px 72px ;    
+    width: 487px;
+    height: 520px;     
+    margin-top: 30px;  
+    margin-left: 30px;
+    background-color: rgba(194, 190, 190, 0.945);
+    border: 3px solid rgba(185, 184, 184, 0.945);
+    border-radius: 15px;   
+    box-shadow: 5px 10px 5px rgb(92, 91, 91);
+    
+}  
+
+.calc > .calc_display > input {
+    display: grid;
+    width: 433px;
+    height: 70px;  
+    margin-top: 30px;  
+    margin-left: 25px;  
+    border-radius: 5px;
+    text-align: right;
+    font-size: 35px;    
+    background-color: black;
+    color: ghostwhite;  
+    line-height: 50px ;
+    text-transform: uppercase;  
+    cursor: pointer;  
+}  
+
+.btn {
+    margin-left: 23px;
+    margin-bottom: 18px;
+}
+
+.right-column {   
+    float: right;
+    width: 45%;  
+    height: 100%;        
+         
+}
+
+.main-title { 
+    width: 100%;      
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(85, 86, 87);
+    margin-top: 150px;    
+}
+
+.about__btn > .about_btn-link {  
+    margin-top: 30px;
+    text-align: center;        
+    background-color: whitesmoke;   
+    border: none;
+    color: rgb(85, 86, 87);
+    padding: 10px 32px;   
+    font-size: 25px;
+    border-radius: 35px;  
+    cursor: pointer; 
+    text-decoration: none;
+}

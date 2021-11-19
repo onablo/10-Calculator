@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet"href="./css/main.css">
+    <link rel="stylesheet"href="./css/calc.css">
+</head>
+<body>
+    <div class="background">
+        <div class="maincontent">
+            <div class="container">
+                <header class="header">                    
+                    <a href="#" class="logo">
+                        <img src="./img/Logo.png"alt="AnaBlog">
+                    </a>                    
+                </header>   
+                <main class="page">
+                    <div class="container">
+                        <div class="left-column">                            
+                            <div class="calc-wrapper">  
+                                <div class="calc">             
+                                    <div class="calc_display">
+                                        <input disabled type="text" value = "0" id="display" name="" class="calc_display-input" placeholder="000000000000000000000">
+                                    </div>
+                                    <div class="calc_buttons">
+                                        <table class="calc_table">
+                                            <tr class="calc_buttons-row">
+                                                <td>
+                                                    <button type="button" id="ce" class="clear_btn btn btn_default btn_hover_red">ce</button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" id="c" class="clear_btn btn btn_default btn_hover_red">c</button>
+                                                </td>
+                                                <td>
+                                                    <button value="dalina" type="button" class="btn btn_default btn_hover_blue operation">/</button>
+                                                </td>
+                                                <td>
+                                                    <button value="daugina" type="button" class="btn btn_default btn_hover_blue operation">*</button>
+                                                </td>
+                                            </tr>
+                                            <tr class="calc_buttons-row">
+                                                <td>
+                                                    <button type="button" class="number btn">7</button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="number btn">8</button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="number btn">9</button>
+                                                </td>
+                                                <td>
+                                                    <button value="atima" type="button" class="btn btn_default btn_hover_blue operation">-</button>
+                                                </td>
+                                            </tr>
+                                            <tr class="calc_buttons-row">
+                                                <td>
+                                                    <button type="button" class="number btn">4</button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="number btn">5</button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="number btn">6</button>
+                                                </td>
+                                                <td>
+                                                    <button value="sudeda" type="button" class="btn btn_default btn_hover_blue operation">+</button>
+                                                </td>
+                                            </tr>
+                                            <tr class="calc_buttons-row">
+                                                <td>
+                                                    <button type="button" class="number btn">1</button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="number btn">2</button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="number btn">3</button>
+                                                </td>                                                                                             
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button type="button" class="number btn">0</button>
+                                                </td>
+                                                
+                                                
+                                                <td>
+                                                    <button type="button" class="btn btn_default btn_long" id="decimal">.</button>
+                                                </td>
+                                               
+                                                <td>
+                                                    <button value="suskaiciuoja" type="button" id="result" class="operation btn btn_default btn_hover_blue">=</button>
+                                                </td>   
+                                            </tr>
+                                        </table>                                
+                                    </div>            
+                                </div>
+                            </div>
+                        </div>                   
+                        <div class="right-column">
+                            <h1 class="main-title">
+                                School calculator
+                            </h1>
+                            <div class="about">
+                                <div class="about__btn">
+                                    <a href="#" id="howWorkBtn" class="about_btn-link">
+                                        Kaip veikia?
+                                    </a> 
+                                </div>
+                                <div>
+                                    <ul id="operationsList">
+
+                                    </ul>                                    
+                                </div>                                
+                            </div> 
+                        </div>
+                    </div>
+                </main>                               
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"defer></script>
+</body>
+</html>
