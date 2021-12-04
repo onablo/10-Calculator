@@ -28,6 +28,7 @@ for (let i = 0; i < clearBtns.length; i++) {
     let clear_btn = clearBtns[i];
     clear_btn.addEventListener('click', function(e) {         
         clear(e.srcElement.id);  
+        //clear(e.target.textContent);
     });        
 };
 
